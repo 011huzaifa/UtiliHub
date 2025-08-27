@@ -1,17 +1,16 @@
 "use client";
 import { useRef, useState } from "react";
-import Button from "../Button";
-import Input from "../Input";
+import Button from "../ui/Button";
+import Input from "../ui/Input";
 import MobileNav from "../MobileNav";
 import Navbar from "../Navbar";
-import SideBar from "../Sidebar";
-import SiteLogo from "../SIteLogo";
+import SideBar from "./Sidebar";
+import SiteLogo from "../ui/SIteLogo";
 import { CloseOutlined, MenuOutlined, SearchOutlined } from "@ant-design/icons";
 import Link from "next/link";
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const menuRef = useRef<HTMLDivElement | null>(null);
   return (
     <header className="relative h-20 container mx-auto py-6">
       <div className="w-full flex items-end justify-between px-4">

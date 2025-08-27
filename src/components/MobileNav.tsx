@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { NavLinks } from "../lib/data/nav-links"
+import { NavLinks } from "../lib/data/nav-links-data"
 const MobileNav = ()=>{
     return <nav className="w-full">
         <ul>

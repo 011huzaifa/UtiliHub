@@ -5,7 +5,7 @@
   --foreground: #0a0a0a;
   --accent-background: #121212;
   --accent-foreground: #f7f6f3;
-  --button-background: #222222;
+  --button-background: #232323;
   --button-foreground: #fcfcfc;
   --h1: 2.5rem;
   --h2: 2rem;
@@ -41,6 +41,7 @@ body {
   font-family: var(--font-sans);
   font-display: swap;
   font-size: var(--base-font-size);
+  scroll-behavior: smooth;
 }
 
 code, pre {
@@ -67,6 +68,7 @@ h6 {
 button {
   background-color: var(--button-background);
   color: var(--button-foreground);
+  width: 100%;
 }
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration,
@@ -84,4 +86,10 @@ aside {
   h1{
     font-size: var(--h4);
   }
+}
+.outlined-btn{
+  background-color: transparent !important;
+  color: var(--accent-background) !important;
+  border: 1px solid var(--accent-background);
+  padding: 0.5rem 1rem;
 }

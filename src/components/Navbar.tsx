@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { NavLinks } from "../lib/data/nav-links";
+import { NavLinks } from "../lib/data/nav-links-data";
 const Navbar = () => {
   return <nav className="w-full">
     <ul className="flex items-center">
