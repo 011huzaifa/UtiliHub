@@ -68,7 +68,6 @@ h6 {
 button {
   background-color: var(--button-background);
   color: var(--button-foreground);
-  width: 100%;
 }
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration,
@@ -92,4 +91,5 @@ aside {
   color: var(--accent-background) !important;
   border: 1px solid var(--accent-background);
   padding: 0.5rem 1rem;
+
 }

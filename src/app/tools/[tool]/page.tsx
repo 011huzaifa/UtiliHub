@@ -1,9 +1,11 @@
 "use client";
+import ImageCompressor from "@/components/ImageCompressor";
 import QrCodeTool from "@/components/QrCodeTool";
 import { notFound } from "next/navigation";
 
 const tools: Record<string, React.ComponentType> = {
-    "qr-code-generator": QrCodeTool
+    "qr-code-generator": QrCodeTool,
+    "image-compressor": ImageCompressor
 }
 export default function ({ params }: { params: { tool: string } }) {
     const {tool} = params; 

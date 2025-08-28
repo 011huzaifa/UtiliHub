@@ -15,7 +15,7 @@ export const ExploreTools: ExploreToolsTypes[] = [
     image: "/images/image-compressor.svg",
     title: "Image Compressor",
     tagline: "Compress Images, Keep the Quality.",
-    link: ""
+    link: "/tools/image-compressor"
   },
       {
     image: "/images/pdf.svg",
